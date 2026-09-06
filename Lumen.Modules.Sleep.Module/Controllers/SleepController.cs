@@ -3,7 +3,7 @@ using Lumen.Modules.Sleep.Data;
 
 using Microsoft.AspNetCore.Mvc;
 
-namespace Lumen.Modules.EnergyConsumption.Module.Controllers {
+namespace Lumen.Modules.Sleep.Module.Controllers {
     [ApiController]
     [Route("[controller]")]
     public class SleepController(ILogger<SleepController> logger, SleepContext context) : ControllerBase {
